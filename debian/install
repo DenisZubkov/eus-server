@@ -1,0 +1,3 @@
+.build/							usr/src/eus-server
+terraform/scripts/install.sh	usr/src/eus-server
+terraform/scripts/start.sh		usr/src/eus-server

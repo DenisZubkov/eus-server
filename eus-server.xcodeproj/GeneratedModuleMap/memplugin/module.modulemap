@@ -1,0 +1,4 @@
+module memplugin {
+    umbrella "/Users/denzu/Developer/eus-server/.build/checkouts/omr-agentcore/src/memplugin/include"
+    export *
+}

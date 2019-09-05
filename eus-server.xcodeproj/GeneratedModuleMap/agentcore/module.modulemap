@@ -1,0 +1,4 @@
+module agentcore {
+    umbrella "/Users/denzu/Developer/eus-server/.build/checkouts/omr-agentcore/src/agentcore/include"
+    export *
+}
