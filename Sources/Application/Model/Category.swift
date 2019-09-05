@@ -1,3 +1,5 @@
+import SwiftKueryORM
+
 public struct Category: Codable {
     public var id: Int?
     public var guid: String?
@@ -12,3 +14,5 @@ extension Category: Equatable {
         lhs.dataVersion == rhs.dataVersion
     }
 }
+
+extension Category: Model {}
