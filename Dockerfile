@@ -8,6 +8,7 @@ EXPOSE 8080
 # Default user if not provided
 ARG bx_dev_user=root
 ARG bx_dev_userid=1000
+ARG DEBIAN_FRONTEND=noninteractive
 
 # Install system level packages
 RUN sudo apt-get update && apt-get install -y libpq-dev
