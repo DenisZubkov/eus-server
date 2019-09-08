@@ -35,3 +35,4 @@ base:
 istio:
   enabled: false
   weight: 100
+secretsConfig: postgresql-database

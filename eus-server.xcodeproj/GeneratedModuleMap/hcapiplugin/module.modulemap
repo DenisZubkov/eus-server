@@ -1,4 +1,4 @@
 module hcapiplugin {
-    umbrella "/Users/denzu/Developer/eus-server/.build/checkouts/omr-agentcore/src/hcapiplugin/include"
+    umbrella "/Users/DenZu/Developer/Kitura/eus-server/.build/checkouts/omr-agentcore/src/hcapiplugin/include"
     export *
 }

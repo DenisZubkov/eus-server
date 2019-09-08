@@ -12,7 +12,7 @@ import SwiftKueryPostgreSQL
 class Persistence {
     static func setUp() {
         let pool = PostgreSQLConnection.createPool(
-            host: "postgersql-database",
+            host: "postgresql-database",
             port: 5432,
             options: [
                 .databaseName("epicus"),
